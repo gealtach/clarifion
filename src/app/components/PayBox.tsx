@@ -9,7 +9,7 @@ import apple from '../img/apple pay.png';
 import amex from '../img/amex.png';
 import Image from 'next/image';
 
-const Frame10 = () => {
+const PayBox = () => {
   return (
     <div className='flex flex-col justify-center border rounded-md p-2 m-4'>
         <div className='flex items-center border-b pb-2'>
@@ -32,4 +32,4 @@ const Frame10 = () => {
   )
 }
 
-export default Frame10
+export default PayBox

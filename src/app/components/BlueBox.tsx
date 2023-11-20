@@ -1,9 +1,9 @@
-import React from 'react';
-import { PiPercentDuotone } from 'react-icons/pi';
+import React from 'react'
+import { PiPercentDuotone } from 'react-icons/pi'
 
-const Frame8 = () => {
+const BlueBox = () => {
   return (
-    <div className='flex bg-blue-200 p-4 m-6 rounded-lg gap-x-4 items-center'>
+    <div className='flex bg-blue-200 p-4 m-6 rounded-lg gap-x-4 items-center md:w-full'>
         <div className='bg-blue-600 text-white h-fit rounded-full p-2'>
             <PiPercentDuotone size={15} />
         </div>
@@ -20,4 +20,4 @@ const Frame8 = () => {
   )
 }
 
-export default Frame8
+export default BlueBox
