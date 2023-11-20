@@ -8,7 +8,7 @@ const Frame2 = () => {
   return (
     <div className='flex p-2 mx-4 justify-between'>
         <Image src={clarifion} alt='logo' width={100} height={30} />
-        <div className='flex gap-x-3'>
+        <div className='flex gap-x-5'>
             <Image src={mcafee} alt='McAfee' width={44} height={16} />
             <Image src={norton} alt='Norton' width={44} height={16} />
         </div>
